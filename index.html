@@ -4,29 +4,84 @@
     <title>Document</title>
 </head>
 <body>
-   <h1><b>hello</b>
-    <i>world</i>
-    <u>html</u></h1> 
-   <table border="2">
-    <thead>
-        <tr>
-            <th rowspan="2">rg.no</th>
-            <th rowspan="2">name</th>
-            <th colspan=>markd</th>
-        </tr>
-    </thead>
-    <tbody>
-      <tr><td>101</td>
-      <td>sant</td>
-      <td>89</td></tr>
-      <tr><td>102</td>
-      <td>sant</td>
-      <td>89</td></tr>
-      <tr><td>103</td>
-      <td>sant</td>
-      <td>89</td></tr>
-      </tbody>
-   </table>
-   <a href="./about.htm" target="_blank">About</a>
+
+<!-- Header Section -->
+<section>
+    <hr>
+    <h1>
+        <b>Hello</b>
+        <i> World</i>
+        <u> HTML</u>
+    </h1>
+    <a href="./about.html" target="_blank">About</a>
+</section>
+
+<!-- Navigation Section -->
+<section>
+    <hr>
+    <ul>
+        <li><a href="#para">Home</a></li>
+        <li><a href="#table">Table</a></li>
+        <li><a href="#img">Contact</a></li>
+    </ul>
+</section>
+
+<!-- Content Section -->
+<section id="para">
+    <hr>
+    <h2>Content Section</h2>
+    <p>
+        HTML stands for <b>Hyper Text Markup Language</b>.
+        It is used to create the structure of web pages.
+        HTML uses elements like headings, paragraphs, tables,
+        images, and links.
+    </p>
+
+    <p>
+        Learning HTML is the first step in web development.
+        It works together with CSS and JavaScript.
+    </p>
+</section>
+
+<!-- Image Section -->
+<section id="img">
+    <hr>
+    <h2>Image Section</h2>
+    <img src="https://via.placeholder.com/200" alt="Sample Image 1">
+    <img src="https://via.placeholder.com/200" alt="Sample Image 2">
+</section>
+
+<!-- Table Section -->
+<section>
+    <hr>
+    <h2>Student Marks Table</h2>
+    <table border="2" id = "table">
+        <thead>
+            <tr>
+                <th>Reg No</th>
+                <th>Name</th>
+                <th>Marks</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>101</td>
+                <td>Sant</td>
+                <td>89</td>
+            </tr>
+            <tr>
+                <td>102</td>
+                <td>Sant</td>
+                <td>89</td>
+            </tr>
+            <tr>
+                <td>103</td>
+                <td>Sant</td>
+                <td>89</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
 </body>
 </html>
