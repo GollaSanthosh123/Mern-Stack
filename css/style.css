@@ -1,0 +1,33 @@
+span{
+    color:brown;
+    font-weight: bolder;
+}
+.sub{
+    font-weight: bolder;
+    font-style: italic;
+}
+#para{
+    background-color: aquamarine;
+    
+}
+span,h1{
+    background-color: blue;
+}
+*{
+    background-color: rgb(73, 97, 10);
+}
+div p{
+    background-color: bisque;
+}
+div>p{
+    color: brown;
+}
+input[type="text"]{
+    color: chartreuse;
+}
+h1+p{
+    color: coral;
+}
+h1~p{
+    color: black;
+}
