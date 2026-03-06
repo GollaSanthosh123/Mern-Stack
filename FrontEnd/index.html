@@ -1,13 +1,50 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>frontend</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<head>
+    <title>CSS</title>
+    <!--external css-->
+    <link rel="stylesheet" href="./style.css">
+    <!--Internel CSS-->
+   <style>
+     p{
+        color:red;
+        font-style: italic;
+        font-weight: 800;
+    }
+   </style>
+</head>
+<body>
+    <h1>CSS</h1>
+    <ul>
+        <li>Inline Css</li>
+        <li>Internel Css</li>
+        <li>External CSS</li>
+    </ul>
+    <h3>Inline CSS</h3>
+    <h3 style="color:blue">Inline Css</h3>
+    <p>css Internel </p>
+    <span>external css</span>
+    <ul>
+        <li>class(.)</li>
+        <li>id(#)</li>
+        <li>group(,)</li>
+        <li>universal(*{})</li>
+        <li>decendent(div p)</li>
+        <li>child(>)</li>
+        <li>Attribute selector</li>
+        <li>Adjcent selector(+)</li>
+        <li>General Sibling Selector(~)</li>
+    </ul>
+    <br>
+    <h1 class="sub">class selector</h1>
+    <p id="para">id selector</p>
+    <div>
+        <p>decendent/chile selector</p>
+    </div>
+ <br>
+ <input type="text" placeholder="text"><br>
+ <input type="number" placeholder="number">
+ <h1>adjcent</h1>
+ <p>adjecent1</p>
+</body>
 </html>
